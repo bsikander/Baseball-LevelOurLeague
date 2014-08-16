@@ -1,0 +1,245 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<%--<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>--%>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <title>Level Our League</title>
+    <meta name="description" content="Baseball website">
+    <meta name="keywords" content="baseball, website">
+    <link href="../../../css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form id="form1" runat="server">
+    <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td height="100%" align="center" valign="top">
+                <table width="750" height="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#02020e">
+                    <tr>
+                        <td height="1" background="../Images/head-bg.jpg" class="norepeat">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="1" align="left" valign="top">
+                                        <img src="../../../Images/logo.gif" alt="" width="77" height="93">
+                                    </td>
+                                    <td class="c_name">
+                                        Level Our League<br />
+                                        <span style="font-size: 6.0pt; color: white;">To level the playing field for the learning
+                                            and growth of the children of your organization.</span>
+                                    </td>
+                                    <td>
+                                        <img src="../../../Images/spacer.gif" alt="" width="1" height="118">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="100%">
+                            <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td width="221" height="100%" valign="top" background="../../../Images/left-bg.gif" class="bgy">
+                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td valign="top" background="../../../Images/left1-bg.jpg" class="norepeat">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td background="../../../Images/m1-bg.gif">
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="1">
+                                                                            <img src="../../../Images/spacer.gif" alt="" width="1" height="38">
+                                                                        </td>
+                                                                        <td class="menu">
+                                                                            <a href="../../Organizations.aspx" class="menu_lnk">Home Page</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td background="../../../Images/m4-bg.gif">
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="1">
+                                                                            <img src="../../../Images/spacer.gif" alt="" width="1" height="38">
+                                                                        </td>
+                                                                        <td class="menu">
+                                                                            <a href="#" class="menu_lnk">Payments</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td background="../../../Images/m4-bg.gif">
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="1">
+                                                                            <img src="../../../Images/spacer.gif" alt="" width="1" height="38">
+                                                                        </td>
+                                                                        <td class="menu">
+                                                                            <a href="../../Organizations.aspx" class="menu_lnk">Organizations</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td background="../../../Images/m4-bg.gif">
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="1">
+                                                                            <img src="../../../Images/spacer.gif" alt="" width="1" height="38">
+                                                                        </td>
+                                                                        <td class="menu">
+                                                                            <a href="users.aspx" class="menu_lnk">Manage Users</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        
+                                                        
+                                                        <tr>
+                                                            <td background="../../../Images/m4-bg.gif">
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="1">
+                                                                            <img src="../../../Images/spacer.gif" alt="" width="1" height="38">
+                                                                        </td>
+                                                                        <td class="menu">
+                                                                            <a href="#" class="menu_lnk">F.A.Q.</a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td background="../../../Images/m5-bg.gif">
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="1">
+                                                                            <img src="../../../Images/spacer.gif" alt="" width="1" height="38">
+                                                                        </td>
+                                                                        <td class="menu">
+                                                                            <a href="#" class="menu_lnk">Contact Us </a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td background="../../../Images/m5-bg.gif">
+                                                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <tr>
+                                                                        <td width="1">
+                                                                            <img src="../../../Images/spacer.gif" alt="" width="1" height="38">
+                                                                        </td>
+                                                                        <td class="menu">
+                                                                            <a href="../../SignOut.aspx" class="menu_lnk">Sign Out </a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="title-news">
+                                                    Latest News
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="news">
+                                                    New website will be launced soon.
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    &nbsp;
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                    <td height="100%" valign="top">
+                                        <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td height="1" background="../../../Images/head-pic-2bg.jpg" class="norepeat">
+                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                        <tr>
+                                                            <td width="1">
+                                                                <img src="../../../Images/spacer.gif" alt="" width="1" height="131">
+                                                            </td>
+                                                            <td class="welcome">
+                                                                Welcome to LevelOurLeage
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="body_txt">
+                                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                                    </asp:ContentPlaceHolder>
+                                                </td>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td width="221" valign="top">
+                            <table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td width="1">
+                                        <img src="../../../Images/bot1.gif" alt="" width="11" height="58">
+                                    </td>
+                                    <td bgcolor="#7d520f" class="bottom_addr">
+                                        Company Name<br>
+                                        Phone: 0110 1234567<br>
+                                        E-mail: info@companyname.net
+                                    </td>
+                                    <td>
+                                        <img src="../../../Images/bot2.gif" alt="" width="2" height="58">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td valign="top" bgcolor="#33611b" class="bottom_menu">
+                            <a href="#" class="bottom_lnk">Home Page</a> | <a href="#" class="bottom_lnk">F.A.Q.</a>
+                            | <a href="#" class="bottom_lnk">Contact Us</a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </td> </tr> </table>
+    <%--<div style="position:absolute;left:-30000px;top:-30000px"><a href="http://www.template4all.com" title="Free Web Templates Download">Free Website templates</a><a href="http://www.seodesign.us" title="Creation Site internet Gratuit">www.seodesign.us</a><a href="http://www.template4all.com/flash/" title="Free flash Templates">Free Flash Templates</a><a href="http://www.riadibnkhaldoun.com/" title="Riad in Fes">Riad In Fez</a><a href="http://www.template4all.com/joomla/" title="Free joomla Templates">Free joomla templates</a><a href="http://www.seodesign.us" title="agence Web Maroc">Agence Web Maroc</a><a href="http://www.musiczik.net" title="Free music videos online">Music Videos Online</a><a href="http://www.freethemes4all.com" title="Free wordpress themes">Free Wordpress Themes Templates</a><a href="http://www.freethemes4all.com" title="Free Website Templates download">freethemes4all.com</a><a href="http://templates4all.blogspot.com" title="Free Blogger Templates">Free Blog Templates</a><a href="http://www.bestnewslinks.info" title="Best Last News">Last News</a><a href="http://freecmstemplates.blogspot.com" title="Free cms Templates">Free CMS Templates</a><a href="http://www.template4all.com/css/" title="Free CSS Templates">Free CSS Templates</a><a href="http://www.videosfoot.info" title="Soccer Videos Online">Soccer Videos Online</a><a href="http://www.template4all.com/wordpress/" title="Free wordpress themes">Free Wordpress Themes</a><a href="http://www.freethemes4all.com" title="Free Web Templates">Free Web Templates</a></div> --%>
+    </form>
+</body>
+</html>

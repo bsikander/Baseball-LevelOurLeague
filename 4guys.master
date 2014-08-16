@@ -1,0 +1,45 @@
+<%@ Master Language="C#" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+    
+    protected void Page_Load(object sender, EventArgs e)
+    {
+
+    }
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Rolling Our Own Website Administration Tool</title>
+	<link type="text/css" href="~/Simple/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+	<form id="form1" runat="server">
+	
+	
+	<br />
+	<br />
+	
+	<table class="gnav">
+	<tr>
+		<td><a href="../../../UserHomePage.aspx">Home</a></td>
+		<td><a href="access_rules.aspx"">Admin</a></td>
+		
+		
+	</tr>
+	</table>
+
+	<hr />
+	
+	
+        <asp:contentplaceholder id="c" runat="server">
+        
+        </asp:contentplaceholder>
+    </form>
+    
+    <asp:Literal runat="server" ID="SecurityDisclosure"></asp:Literal>
+</body>
+</html>
